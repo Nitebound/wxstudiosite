@@ -2,12 +2,6 @@
 	text-align: left;
 }
 
-.page-iframe {
-	width = 200;
-	height = 200;
-	border = 0px;
-}
-
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -15,6 +9,10 @@ a.button {
 
     text-decoration: none;
     color: black;
+}
+
+iframe {
+	border=0px;
 }
 
 code {
