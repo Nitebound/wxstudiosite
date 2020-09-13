@@ -2,7 +2,9 @@
 	text-align: left;
 }
 
-
+h2 {
+	color:white;	
+}
 code {
 	color: grey;
 	display: inline-block;
@@ -24,7 +26,7 @@ iframe {
 
 #page-content {
 	text-align: center;	
-	background-color: lightgrey;
+	background-color: grey;
 }
 
 #page-title {
