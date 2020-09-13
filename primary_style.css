@@ -2,15 +2,18 @@
 	text-align: left;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: black;
+a:link, a:visited {
+	background-color: black;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
+a:hover, a:active {
+	background-color: red;
+}
 
 code {
 	color: grey;
