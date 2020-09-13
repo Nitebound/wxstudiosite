@@ -2,9 +2,6 @@
 	text-align: left;
 }
 
-h2 {
-	color:white;	
-}
 code {
 	color: grey;
 	display: inline-block;
@@ -31,6 +28,7 @@ iframe {
 
 #page-title {
 	text-align: center;	
+	color: white;
 }
 
 .dlink {
