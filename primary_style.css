@@ -5,6 +5,7 @@
 .page-iframe {
 	width = 200;
 	height = 200;
+	border = 0px;
 }
 
 a.button {
