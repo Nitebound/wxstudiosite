@@ -1,7 +1,13 @@
 * {
 	text-align: left;
 }
-	
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
