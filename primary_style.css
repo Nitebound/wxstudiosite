@@ -21,6 +21,13 @@ iframe {
 	height:100vh;
 }
 
+#wxlogo {
+	border:1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+}
+
 #menu-links {
 	text-align: left;
 }
@@ -34,6 +41,8 @@ iframe {
 	text-align: center;	
 	color: white;
 }
+
+
 
 #topOfPageButton {
   display: none;
