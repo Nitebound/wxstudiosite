@@ -1,5 +1,5 @@
 * {
-	text-align: left;
+	text-align: center;
 }
 
 code {
@@ -21,11 +21,16 @@ iframe {
 	height:100vh;
 }
 
+td {
+	text-align:left;
+}
+
+
 #wxlogo {
 	border:1px;
 	border-style: solid;
 	border-color: black;
-	text-align: center;
+	text-align: left;
 }
 
 #menu-links {
@@ -55,4 +60,7 @@ iframe {
 	display: inline-block;
 }
 
-
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
