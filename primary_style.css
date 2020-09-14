@@ -6,7 +6,7 @@ code {
 	color: black;
 	background-color: white;
 	border-color: lightblue;
-	border-style: double;
+	border-style: solid;
 	display: inline-block;
 	padding: 5px 5px;
 }
