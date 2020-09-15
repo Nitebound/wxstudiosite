@@ -24,6 +24,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #DD6031;
+	border: 1px solid;
 }
 
 li {
