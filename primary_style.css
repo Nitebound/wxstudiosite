@@ -3,13 +3,13 @@
 }
 
 code {
-	color: black;
-	background-color: white;
-	border-color: lightblue;
-	border-style: solid;
+	color: #FFFFFF;
+	background-color: #BEB7A4;
 	display: inline-block;
 	padding: 5px 5px;
+	margin: 2px 2px;
 	text-align: left;
+	border: 1px dashed #390040;
 }
 
 footer {
@@ -41,6 +41,13 @@ iframe {
 	text-align: center;
 }
 
+#page-title {
+	text-align: center;	
+	color: #FFFFFF;
+	border: solid #FFFFFF;
+	background-color: #DD6031;
+}
+
 #page-content {
 	text-align: center;	
 	color: black;
@@ -50,27 +57,21 @@ iframe {
 #page-div {
 	background-color: white;
 	text-align: left;
-	border: 1px solid;
+	border: 2px #1098F7 solid;
 	margin: 10px 10px;
 	padding: 50px 100px;
 }
 
-#page-title {
-	text-align: center;	
-	color: #FFFFFF;
-	border-style: solid;
-	background-color: #BEB7A4;
-}
 
 #index-body {
 	background-color: #FFFFFF;
 }
 
 .dlink {
-	background-color: #DD6031;
+	background-color: #1098F7;
 	border: 1px black solid;
 	color: white;
-	padding: 5px 5px;
+	padding: 2px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
