@@ -14,7 +14,7 @@ footer {
 
 iframe {
 	border:0;
-	width:100vw;
+	width:75vw;
 	height: 75vh;
 }
 
@@ -24,7 +24,9 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #DD6031;
-	border: 1px solid;}
+	border: 1px solid;
+	width: 100vw;
+}
 
 li {
 	float: left;
@@ -54,11 +56,12 @@ li a:hover {
 
 #index-frame {
 	border: 1px solid #1098F7;
+	background-color: #3D3D3D;
+	text-align: center;
 }
 
 #index-body {
 	background-color: #FFFFFF;
-	
 }
 
 #basic-table {
@@ -99,7 +102,6 @@ li a:hover {
 	text-align: left;
 	border: 2px #1098F7 solid;
 	padding: 50px 50px;
-	width: 100vh;
 }
 
 .bordered-element {
