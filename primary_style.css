@@ -9,6 +9,7 @@ code {
 	border-style: solid;
 	display: inline-block;
 	padding: 5px 5px;
+	text-align: left;
 }
 
 footer {
@@ -23,6 +24,7 @@ iframe {
 
 td {
 	text-align:left;
+	border: 1px solid;
 }
 
 
@@ -57,7 +59,7 @@ td {
 }
 
 .dlink {
-	background-color: lightblue;
+	background-color: black;
 	color: white;
 	padding: 5px 5px;
 	text-align: center;
