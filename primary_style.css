@@ -45,7 +45,7 @@ li a:hover {
 #banner-table {
 	text-align: center;
 	border: 0px;	
-	background-color: black;
+	background-color: #000000;
 }
 
 #index-logo {
@@ -82,9 +82,9 @@ li a:hover {
 #page-subtitle {
 	text-align: center;
 	color: #FFFFFF;
-	background-color: #3F84E5;
+	background-color: #000000;
 	text-decoration: bold;
-	border: 10px solid #DD6031;
+	border: 2px solid #DD6031;
 	padding: 10px 10px;
 	width: 50%;
 }
