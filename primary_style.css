@@ -22,49 +22,59 @@ iframe {
 	height:100vh;
 }
 
-td {
-	text-align:left;
+#basic-table {
+	text-align: center;
 	border: 1px solid;
 }
 
+#banner-table {
+	text-align: center;
+	border: 0px;	
+}
 
 #wxlogo {
-	border-color: black;
-	text-align: left;
+	text-align: center;
+	background-color: #1098F7;
 }
 
 #menu-links {
-	text-align: left;
+	text-align: center;
 }
 
 #page-content {
 	text-align: center;	
 	color: black;
-	background-color: lightgrey;
+	background-color: #565656;
 }
 
 #page-div {
 	background-color: white;
+	text-align: left;
 	border: 1px solid;
 	margin: 10px 10px;
-	padding: 50px 10px;
-	
+	padding: 50px 100px;
 }
 
 #page-title {
 	text-align: center;	
-	color: black;
+	color: #FFFFFF;
 	border-style: solid;
-	background-color: white;
+	background-color: #BEB7A4;
+}
+
+#index-body {
+	background-color: #FFFFFF;
 }
 
 .dlink {
-	background-color: black;
+	background-color: #DD6031;
+	border: 1px black solid;
 	color: white;
 	padding: 5px 5px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	
 }
 
 .centered {
