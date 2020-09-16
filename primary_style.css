@@ -18,7 +18,7 @@ iframe {
 	height: 75vh;
 }
 
-ul {
+.mainNav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -28,18 +28,18 @@ ul {
 	width: 100vw;
 }
 
-li {
+.mainNav li {
 	float: left;
 }
 
-li a {
+.mainNav li a {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-li a:hover {
+.mainNav li a:hover {
   background-color: #1098F7;
 }
 
@@ -67,12 +67,9 @@ li a:hover {
 }
 
 #basic-table {
-	text-align: center;
+	text-align: left;
 	width: 95%;
-}
-
-#menu-links {
-	text-align: center;
+	border: 1px solid;
 }
 
 #page-title {
