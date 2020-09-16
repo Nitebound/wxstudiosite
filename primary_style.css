@@ -103,6 +103,8 @@ li a:hover {
 	background-color: white;
 	text-align: left;
 	padding: 50px 50px;
+	background-image: linear-gradient(#FFFFFF, #D6D6D6);
+
 }
 
 .bordered-element {
