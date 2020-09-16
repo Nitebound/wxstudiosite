@@ -46,6 +46,7 @@ li a:hover {
 #banner-table {
 	text-align: center;
 	border: 1px solid;	
+	color: #FFFFFF;
 	background-image: linear-gradient(#FFFFFF, #1F5673 );
 
 }
