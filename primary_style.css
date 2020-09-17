@@ -86,7 +86,7 @@ p {
 	margin: 0;
 	padding: 5px 5px;
 	overflow: hidden;
-	background-color: #DD6031;
+	background-color: #3D3D3D;
 	border: 1px solid;
 	width: 100vw;
 }
@@ -103,7 +103,7 @@ p {
 }
 
 .mainNav li a:hover {
-  background-color: #1098F7;
+  background-color: #DD6031;
 }
 
 .bordered-element {
