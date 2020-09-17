@@ -18,6 +18,10 @@ iframe {
 	height: 75vh;
 }
 
+p {
+	color: #3D3D3D;
+}
+
 .mainNav ul {
 	list-style-type: none;
 	margin: 0;
