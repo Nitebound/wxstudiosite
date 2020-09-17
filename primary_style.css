@@ -112,9 +112,9 @@ p {
 }
 
 .dlink {
-	background-color: #FFFFFF;
+	background-color: #3D3D3D;	
+	color: #FFFFFF;
 	border: 1px black solid;
-	color: #000000;
 	padding: 2px 10px;
 	text-align: center;
 	text-decoration: none;
@@ -122,8 +122,8 @@ p {
 }
 
 .dlink:hover {
-	color: #FFFFFF;
-	background-color: #3D3D3D;
+	background-color: #FFFFFF;	
+	color: #000000;
 }
 
 .centered {
