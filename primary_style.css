@@ -50,6 +50,13 @@ p {
 	border: 1px solid #FFFFFF;
 }
 
+#centered-table {
+	text-align: center;
+	width: 95%;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+
 #page-title {
 	text-align: left;	
 	color: #FFFFFF;
