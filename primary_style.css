@@ -93,11 +93,16 @@ p {
 	background-image: linear-gradient(#D6D6D6, #FFFFFF);
 }
 
-#normal-link-white {
+#normal-link-black {
 	color: #FFFFFF;
 }
 
-#normal-link-black {
+#normal-link-green {
+	color: lightgreen;
+}
+
+
+#normal-link-green:hover {
 	color: #FFFFFF;
 }
 
