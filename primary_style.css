@@ -14,7 +14,7 @@ footer {
 
 iframe {
 	width:75vw;
-	height:95vh
+	height:95vh;
 }
 
 p {
@@ -86,6 +86,13 @@ p {
 	background-color: #D6D6D6;
 }
 
+#news-div {
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 50px 50px;
+	background-image: linear-gradient(#D6D6D6, #1098F7);
+}
+
 #page-div {
 	background-color: #FFFFFF;
 	text-align: left;
@@ -138,6 +145,7 @@ p {
 
 .padded-element {
 	padding: 20px 20px;
+	border: 2px dashed orange;
 }
 
 .dlink {
