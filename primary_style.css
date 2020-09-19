@@ -34,10 +34,15 @@ p {
 	background-image: linear-gradient(#FFFFFF, #1098F7);
 }
 
-#index-frame {
+#index-iframe {
 	border: 7px double #FFFFFF;
 	background-color: #3D3D3D;
 	text-align: center;
+}
+
+#news-iframe {
+	border: 1px solid #FFFFFF;	
+	height: 30vh;
 }
 
 #index-body {
@@ -59,11 +64,11 @@ p {
 }
 
 #page-title {
-	text-align: left;	
+	text-align: center;	
 	color: #FFFFFF;
 	border: solid #FFFFFF;
 	background-color: #000000;
-	padding: 10px 10px;
+	padding: 1 10px;
 }
 
 #page-subtitle {
