@@ -136,6 +136,10 @@ p {
 	border: 1px black solid;
 }
 
+.padded-element {
+	padding: 20px 20px;
+}
+
 .dlink {
 	background-color: #3D3D3D;	
 	color: #FFFFFF;
