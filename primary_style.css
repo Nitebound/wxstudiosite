@@ -90,7 +90,7 @@ p {
 	background-color: #FFFFFF;
 	text-align: left;
 	padding: 50px 50px;
-	background-image: linear-gradient(#D6D6D6, #1098F7);
+	background-color: #FFFFFF;
 }
 
 #page-div {
@@ -145,7 +145,7 @@ p {
 
 .padded-element {
 	padding: 20px 20px;
-	border: 2px dashed orange;
+	border: 0px;
 }
 
 .dlink {
