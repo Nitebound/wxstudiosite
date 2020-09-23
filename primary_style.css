@@ -93,8 +93,23 @@ p {
 	background-color: #D6D6D6;
 }
 
-
 #page-div {
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 50px 50px;
+	background-image: linear-gradient(#D6D6D6, #FFFFFF);
+}
+
+#tutorial-content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+	color: black;
+	background-color: #D6D6D6;
+	width: 90%
+}
+
+#tutorial-div {
 	background-color: #FFFFFF;
 	text-align: left;
 	padding: 50px 50px;
@@ -169,4 +184,10 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.righted {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
 }
