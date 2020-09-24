@@ -117,7 +117,20 @@ p {
 }
 
 #normal-link-black {
-	color: #FFFFFF;
+	color: #000000;
+}
+
+#normal-link-black:hover {
+	color:#D6D6D6;
+}
+
+#normal-link-red {
+	text-decoration: none;
+	color: red;
+}
+
+#normal-link-red:hover {
+	color: blue;	
 }
 
 #normal-link-green {
