@@ -2,41 +2,85 @@
 <html>
 <head>
 	<link rel="stylesheet" href="../../primary_style.css">
-	<title>About Us</title>
+	<title>Variables</title>
 </head>
 	<body id="tutorial-content">
-
 			<!-- Put contents here -->
 			<div id="tutorial-div">
 				<!-- Sub Title -->
 				<h2 id="page-title"> Variables </h2>
-				<h3 id="page-subtitle"> ~ Storing your data in Python ~ </h3>
+				<h3 id="page-subtitle"> ~ Commenting your code ~ </h3>
+				
+				<p>
+					In case you're not familiar with the concept of variables, they are simply containers which can hold your data so you
+					can use it later in your code. To create a variable you just have to come up with a name for it which describes what
+					it will be storing, and set it equal to the value/data you wish to store inside it. For example:
+				</p>
 				
 				<div class="centered">
-					<p>
-						In the last tutorial we learned how to store a line of text in a variable we named my_phrase. Text is not the only
-						thing you can store in variables though, variables can hold all sorts of data which can then be used wherever it is
-						needed. Some data types variables can hold include numbers, text, and tuples. It's very easy to create variables to
-						hold your data, and it's a key part of programming. Below are a few examples of how to store your data in variables:
-					</p>
-					
-					<code>
-						# Example from the previous tutorial <br>
-						my_phrase = "Hello, World!" <br>
-						print(my_phrase) <br>
-						<br>
-                                    
-						# Storing numbers <br>
-						my_number = 28 <br>
-						print(my_number) <br>
+					<code class="code-base">
+						# variable_name = data to store <br>
+						favorite_candy = "chocolate bars"
 					</code>
-
-                                <p>
-                                   This tutorial is still in the works! Come back soon to see what's been added. Changes will
-                                   will be posted on the News page. Thanks for your patience!
-                                </p>
 				</div>
 
+				<p>
+					The first line in the code above is what's called a comment. A comment is just meant to clarify what your code is doing
+					and while it isn't necessary to comment your code, it is very wise. Commenting your code makes it easier, for you or 
+					anyone else who reads your code, to understand what that code is doing. In Python a comment is begun with a pound symbol,
+					#, and for better readability you should follow the pound by one space before typing in your comment as I've done above.
+				</p>
+				
+				<p>
+					Keep in mind that comments actually have no effect on the functionality of your code and is actually ignored by the Python
+					interpereter when you run it. Only the line following the pound sign will be commented, any following lines of code
+					will be executed as usual. There are a couple different ways to comment your code, including ways to make multi-line comments
+					without using a pound sign at the start of each one, but for now we will stick to the basics.
+				</p>
+				
+				<h3 id="page-subtitle"> ~ Storing your data in variables ~ </h3>
+
+				<p>
+					In the last tutorial we learned how to store a line of text in a variable we named my_phrase. Text is not the only
+					thing you can store in variables though, variables can hold all sorts of data which can then be used later when it is
+					needed.
+				</p>
+				<p>
+					Some data types which variables can hold include integers, strings, and booleans. It's very easy to create variables
+					to hold your data, and it's a key part of programming. Below are a few examples:
+
+				</p>
+
+				<div class="centered">
+					<code class="code-base">
+						# Storing an integer (whole number) <br>
+						my_number = 28 <br>
+						print("My integer:", my_number) <br>
+						<br>
+						# Storing a float (floating point number) <br>
+						my_float = 3.75 <br>
+						print("My float:", my_float) <br>
+						<br>
+						# Storing a boolean (either true or false) <br>
+						my_bool = True <br>
+						print("My bool:", my_bool) <br>
+						<br>
+						# Storing a string (text) <br>
+						my_string = "Hello, World!" <br>
+						print("My string:", my_string) <br>						
+					</code>
+					<br><b>Output:</b><br>
+					<code class="code-output">
+						My integer: 28 <br>
+						My float: 3.75 <br>
+						My bool: True <br>
+						My string: Hello, World! <br>
+					</code>
+				</div>
+					
+				<p>
+					Integers, floats, booleans and strings are the basic data types which can be stored in variables.
+				</p>
 				
 				<div class="righted">
 					<a href="variables.html" class="dlink"> More to come! </a>
@@ -47,4 +91,4 @@
 
 		<br>	
 	</body>
-	
+</html>
