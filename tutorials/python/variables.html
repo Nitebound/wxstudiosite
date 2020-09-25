@@ -17,12 +17,10 @@
 					it will be storing, and set it equal to the value/data you wish to store inside it. For example:
 				</p>
 				
-				<div class="centered">
-					<code class="code-base">
-						# variable_name = data to store <br>
-						favorite_candy = "chocolate bars"
-					</code>
-				</div>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># variable_name = data to store</span>
+favorite_candy <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&#39;chocolate bars&#39;</span>
+</pre></div>
+
 
 				<p>
 					The first line in the code above is what's called a comment. A comment is just meant to clarify what your code is doing
@@ -50,25 +48,24 @@
 					to hold your data, and it's a key part of programming. Below are a few examples:
 
 				</p>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># Storing an integer (whole number)</span>
+my_number <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">28</span>
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;My integer:&quot;</span>, my_number)
+
+<span style="color: #888888"># Storing a float (floating point number)</span>
+my_float <span style="color: #333333">=</span> <span style="color: #6600EE; font-weight: bold">3.75</span>
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;My float:&quot;</span>, my_float)
+
+<span style="color: #888888"># Storing a boolean (either true or false)</span>
+my_bool <span style="color: #333333">=</span> <span style="color: #007020">True</span>
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;My bool:&quot;</span>, my_bool)
+
+<span style="color: #888888"># Storing a string (text)</span>
+my_string <span style="color: #333333">=</span> <span style="background-color: #fff0f0">&quot;Hello, World!&quot;</span>
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;My string:&quot;</span>, my_string) 
+</pre></div>
 
 				<div class="centered">
-					<code class="code-base">
-						# Storing an integer (whole number) <br>
-						my_number = 28 <br>
-						print("My integer:", my_number) <br>
-						<br>
-						# Storing a float (floating point number) <br>
-						my_float = 3.75 <br>
-						print("My float:", my_float) <br>
-						<br>
-						# Storing a boolean (either true or false) <br>
-						my_bool = True <br>
-						print("My bool:", my_bool) <br>
-						<br>
-						# Storing a string (text) <br>
-						my_string = "Hello, World!" <br>
-						print("My string:", my_string) <br>						
-					</code>
 					<br><b>Output:</b><br>
 					<code class="code-output">
 						My integer: 28 <br>
@@ -80,26 +77,28 @@
 					
 				<p>
 					You should go ahead and type in the code above if you haven't already, and then run it. The output should be the same as that shown above.
-					That's how easy it is to create variables, but there are a few more types of data you might want to store. Most other data types are just
-					combinations of these basic ones shown above. A simple example of a more complex data type is what's called a tuple. Tuples consist of multiple
+					That's how easy it is to create variables, but there are a few more types of data you might want to store. 
+					
+				</p>
+				<p>
+					Most other data types are just
+					combinations of these basic ones shown above. An example of a more complex data type is what's called a tuple. Tuples consist of multiple
 					pieces of data stored together seperated by commas. Like so:
 				</p>
-				
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"># Storing a tuple of integers (multiple integers seperated by commas)</span>
+my_integer_tuple <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">3</span>, <span style="color: #0000DD; font-weight: bold">5</span>, <span style="color: #0000DD; font-weight: bold">8</span>, <span style="color: #0000DD; font-weight: bold">2</span>)
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;Integer tuple:&quot;</span>, my_integer_tuple)
+
+<span style="color: #888888"># Storing a tuple of floats (multiple floats seperated by commas)</span>
+my_float_tuple <span style="color: #333333">=</span> (<span style="color: #6600EE; font-weight: bold">1.4</span>, <span style="color: #6600EE; font-weight: bold">5.3</span>)
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;Float tuple:&quot;</span>, my_float_tuple)
+
+<span style="color: #888888"># Storing a tuple of strings (multiple strings seperated by commas)</span>
+my_string_tuple <span style="color: #333333">=</span> (<span style="background-color: #fff0f0">&quot;dude&quot;</span>, <span style="background-color: #fff0f0">&quot;totally&quot;</span>, <span style="background-color: #fff0f0">&quot;yeah&quot;</span>)
+<span style="color: #008800; font-weight: bold">print</span>(<span style="background-color: #fff0f0">&quot;String tuple:&quot;</span>, my_string_tuple)
+</pre></div>
+
 				<div class="centered">
-					<code class="code-base">
-						# Storing a tuple of integers (multiple integers seperated by commas) <br>
-						my_integer_tuple = (3, 5, 8, 2) <br>
-						print("Integer tuple:", my_integer_tuple) <br>
-						<br>
-						# Storing a tuple of floats (multiple floats seperated by commas) <br>
-						my_float_tuple = (1.4, 5.3) <br>
-						print("Float tuple:", my_float_tuple) <br>
-						<br>
-						# Storing a tuple of strings (multiple strings seperated by commas) <br>
-						my_string_tuple = ("dude", "totally", "yeah") <br>
-						print("String tuple:", my_string_tuple) <br>
-						<br>
-					</code>
 					<br><b>Output:</b><br>
 					<code class="code-output">
 						Integer tuple: (3, 5, 8, 2) <br>
@@ -111,6 +110,7 @@
 				<p>
 					
 				</p>
+				
 				<p>
 					This tutorial is still in the works, please check back soon to see what's new!
 				</p>
