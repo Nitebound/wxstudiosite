@@ -16,7 +16,7 @@
 				</p>
 				
 <!-- HTML generated using hilite.me --><div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
-2</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #0099FF; font-style: italic"># variable_name = data to store</span>
+2</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #0099FF; font-style: italic"># variable_name = data</span>
 favorite_candy <span style="color: #555555">=</span> <span style="color: #CC3300">&#39;chocolate bar&#39;</span>
 </pre></td></tr></table></div>
 
@@ -32,15 +32,13 @@ favorite_candy <span style="color: #555555">=</span> <span style="color: #CC3300
 				</p>
 				<p>
 					Commenting your code makes it easier, for you or 
-					anyone else who reads your code, to understand what that code is doing. In Python a comment is begun with a pound symbol,
-					#, and for better readability you should follow the pound by one space before typing in your comment as I've done above.
+					anyone else who reads your code, to understand what that code is doing. In Python a comment is begun with a pound sign,
+					#. For better readability you should follow the pound sign by one space before typing in your comment as I've done above.
 				</p>
 				
 				<p>
-					Keep in mind that comments have no effect on the functionality of your code and are actually ignored by the Python
-					interpereter when you run it. Only the line with the pound sign will be commented, any following lines of code
-					will be executed as usual. There are a couple different ways to comment your code, including ways to make multi-line comments
-					without using a pound sign at the start of each one, but for now we will stick to the basics.
+					<b>Keep in mind that comments have no effect on the functionality of your code and are actually ignored by the Python
+					interpereter.</b>
 				</p>
 				
 				<h3 id="page-smalltitle"> ~ Naming your variables ~ </h3>
@@ -69,7 +67,7 @@ favorite_candy <span style="color: #555555">=</span> <span style="color: #CC3300
 
 				<p>
 					In the last tutorial we learned how to store a line of text in a variable we named my_phrase. Text is not the only
-					thing you can store in variables though, variables can hold all sorts of data which can then be used later when it is
+					thing you can store in variables though, variables can hold all sorts of data which can be used later when it is
 					needed.
 				</p>
 				<p>
@@ -118,7 +116,7 @@ my_string <span style="color: #555555">=</span> <span style="color: #CC3300">&qu
 				</code>
 					
 				<p>
-					You should go ahead and type in the code above if you haven't already, and then run it. The output should be the same as that shown above.
+					You can go ahead and type in the code above if you haven't already, and then run it. The output should be the same as that shown above.
 					That's how easy it is to create variables, but there are a few more types of data you might want to store. 
 					
 				</p>
@@ -209,7 +207,28 @@ my_string_list <span style="color: #555555">=</span> [<span style="color: #CC330
 					The last data type we will cover right now is called a dictionary. Dictionaries, similar to lists, can hold many items but are usually used to store some combination of variables. 
 					Something like a very simple contacts list would probably contain at least the name and phone number of each person listed. Below I'll provide an example of such a contacts dictionary. 
 				</p>
-				
+				<!-- HTML generated using hilite.me --><div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7
+8</pre></td><td><pre style="margin: 0; line-height: 125%">contacts_dict <span style="color: #555555">=</span> {
+    <span style="color: #CC3300">&quot;james&quot;</span>:<span style="color: #CC3300">&quot;555 555 1212&quot;</span>,
+    <span style="color: #CC3300">&quot;steve&quot;</span>:<span style="color: #CC3300">&quot;555 552 3213&quot;</span>,
+    <span style="color: #CC3300">&quot;sophia&quot;</span>:<span style="color: #CC3300">&quot;555 555 9874&quot;</span>,
+    <span style="color: #CC3300">&quot;zach&quot;</span>:<span style="color: #CC3300">&quot;555 554 0877&quot;</span>
+}
+
+<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;Contacts:&quot;</span>, contacts_dict)
+</pre></td></tr></table></div>
+
+				<br><b>Output:</b><br>
+				<code class="code-output">
+					Contacts: {'james': '555 555 1212', 'steve': '555 552 3213', 'sophia': '555 555 9874', 'zach': '555 554 0877'} <br>
+					>>
+				</code>
 				<p>
 					This is just an introduction to most of the types of data which come built into Python. You can use these basic data types to build more
 					complex data types later on, which you'll create, called classes. But we will go into more detail in later tutorials.
