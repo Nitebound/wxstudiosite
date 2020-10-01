@@ -224,3 +224,9 @@ p {
 	margin-right: auto;
 	text-align: right;
 }
+
+.lefted {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
