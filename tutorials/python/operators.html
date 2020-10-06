@@ -12,10 +12,9 @@
 				<h3 id="page-smalltitle"> ~ What are Operators? ~ </h3>
 					
 				<p>
-					In Python operators are the symbols you use to do math. It shouldn't be to hard to understand so I'll just jump
+					In Python operators are the symbols you use to do math and other operations with variables. It shouldn't be to hard to catch on so I'll just jump
 					into the code and we can go over what it does.
 				</p>
-				
 <!-- HTML generated using hilite.me --><div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
  2
  3
@@ -28,55 +27,59 @@
 10
 11
 12
-13
-14
-15
-16
-17
-18
-19</pre></td><td><pre style="margin: 0; line-height: 125%">n1 <span style="color: #555555">=</span> <span style="color: #FF6600">12</span>
+13</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #0099FF; font-style: italic"># Store some numbers into variables</span>
+n1 <span style="color: #555555">=</span> <span style="color: #FF6600">30</span>
 n2 <span style="color: #555555">=</span> <span style="color: #FF6600">5</span>
-n3 <span style="color: #555555">=</span> <span style="color: #FF6600">80</span>
 
-<span style="color: #0099FF; font-style: italic"># Addition</span>
+<span style="color: #0099FF; font-style: italic"># Add n1 and n2 and store it&#39;s result</span>
 result <span style="color: #555555">=</span> n1 <span style="color: #555555">+</span> n2
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> + </span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> =&quot;</span><span style="color: #555555">%</span>(n1, n2), result)
 
-<span style="color: #0099FF; font-style: italic"># Subtraction</span>
-result <span style="color: #555555">=</span> n1 <span style="color: #555555">-</span> n2
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> - </span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> =&quot;</span><span style="color: #555555">%</span>(n1, n2), result)
+<span style="color: #0099FF; font-style: italic"># Store the whole equation into a string</span>
+<span style="color: #0099FF; font-style: italic"># using string formatting</span>
+equation_str <span style="color: #555555">=</span> <span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%d</span><span style="color: #CC3300"> + </span><span style="color: #AA0000">%d</span><span style="color: #CC3300"> = </span><span style="color: #AA0000">%d</span><span style="color: #CC3300">&quot;</span> <span style="color: #555555">%</span> (n1, n2, result)
 
-<span style="color: #0099FF; font-style: italic"># Multiplication</span>
-result <span style="color: #555555">=</span> n1 <span style="color: #555555">*</span> n2
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> * </span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> =&quot;</span><span style="color: #555555">%</span>(n1, n2), result)
-
-<span style="color: #0099FF; font-style: italic"># Division</span>
-result <span style="color: #555555">=</span> n1 <span style="color: #555555">/</span> n2
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> / </span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> =&quot;</span><span style="color: #555555">%</span>(n1, n2), result)
+<span style="color: #0099FF; font-style: italic"># Print the whole equation</span>
+<span style="color: #006699; font-weight: bold">print</span>(equation_str) 
 </pre></td></tr></table></div>
+
+				<br><b>Output:</b><br>
+				<code class="code-output">
+					30 + 5 = 35 <br>
+					>>
+				</code>
+
+
 				
 				<p>
-					WIP <br>
-					----------------
+					On lines 2 and 3 above we store some numbers into the variables <b>n1</b> and <b>n2</b>. Then on line 6 we add <b>n1</b> and <b>n2</b>, with the addition operator <b>+</b>, 
+					and store the solution into the <b>result</b> variable. 
 				</p>
 				
-				<!-- HTML generated using hilite.me --><div style="background: #f0f3f3; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
-2
-3
-4
-5
-6
-7</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #0099FF; font-style: italic"># Parentheses</span>
-result <span style="color: #555555">=</span> n1 <span style="color: #555555">+</span> (n2<span style="color: #555555">+</span>n3)
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;(</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> + </span><span style="color: #AA0000">%s</span><span style="color: #CC3300">) + </span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> =&quot;</span><span style="color: #555555">%</span>(n1, n2,n3), result)
-
-<span style="color: #0099FF; font-style: italic"># Exponents</span>
-result <span style="color: #555555">=</span> n1 <span style="color: #555555">^</span> n2
-<span style="color: #006699; font-weight: bold">print</span>(<span style="color: #CC3300">&quot;</span><span style="color: #AA0000">%s</span><span style="color: #CC3300">^</span><span style="color: #AA0000">%s</span><span style="color: #CC3300"> = &quot;</span><span style="color: #555555">%</span>(n1, n2),result)
-</pre></td></tr></table></div>
-
-
-			</div>
+				<p>
+					Next we use what's called String Formatting, on line 10, to make a string which holds the whole equation. This is done by using the <b>%d</b> operator. These operators
+					are essentially placeholders for integers. They are replaced with the contents of the variables we supplied after the string in quotation <b>"%d + %d = %d"</b>.
+				</p>
+				<p>
+					By following that quotation
+					with a <b>%</b> operator and a Tuple containing our numbers <b>(n1, n2, result)</b> we have told the Python interpereter to replace each <b>%d</b> with the variables in the
+					Tuple in the order which they are entered.
+				</p>
+				
+				<p>
+					Some handy String Formatting operators are:
+				</p>
+			
+				<ul>
+					<li>%s - for Strings and other objects (can also be used for numbers)</li>
+					<li>%d - for Integers</li>
+					<li>%f - for Floating point numbers</li>
+				</ul>
+				
+				<p>
+					There are a couple more but for now these will do. For this tutorial we'll only be using the <b>%d</b> operator, as far as String Formatting goes, to put our numbers and results
+					into a string to represent our equations. From here we will go over the remaining math operators as we did for addition.
+				</p>
+				
 			<!-- End of contents -->
 
 		<br>	
